@@ -1,0 +1,40 @@
+@media(max-width:1024px) {
+    /*about section*/
+}
+
+@media(max-width:99px) {
+    /*custom class*/
+    .text-content {
+        width: 100%;
+    }
+    /*navbar brand*/
+    .navbar-light.navbar-brand img {
+        height: 3.8125rem;
+    }
+    .navbar-light {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navbar-light.nav-link {
+        line-height: 1.875rem;
+    }
+    /*Banner Design*/
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+    /*carousal design*/
+}
+
+@media (max-width:767px) {
+    /*custom css*/
+    h1 {
+        font-size: 2.8rem;
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+    .top-banner {
+        padding: 10.875rem 0 9.375rem;
+    }
+}
